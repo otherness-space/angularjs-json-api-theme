@@ -1,28 +1,11 @@
+
 <!DOCTYPE html>
-<html ng-app>
+<html>
 <head>
-    <base href="/jsonapi/">
-    <title>The "You're Basic" Version</title>
-    <?php wp_head(); ?>
+<title>Rock Paper Scissors basic version</title>
 </head>
 
 <body>
-    <header>
-		<h1>
-			<a href="<?php echo site_url(); ?>">AngularJS Demo Theme</a>
-		</h1>
-	</header>
-
-	<div>
-		<input type="text" ng-model="name">
-
-		<p>Hello, {{name}}!</p>
-	</div>
-
-	<footer>
-		&copy; <?php echo date( 'Y' ); ?>
-	</footer>
-
 </body>
 
 </html>
