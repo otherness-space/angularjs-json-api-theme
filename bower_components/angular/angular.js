@@ -1114,7 +1114,7 @@ var csp = function() {
  * This example shows how to force jqLite using the `ngJq` directive to the `html` tag.
  ```html
  <!doctype html>
- <html ng-app ng-jq>
+ <html ng-basic-name-app ng-jq>
  ...
  ...
  </html>
@@ -1124,7 +1124,7 @@ var csp = function() {
  * The library name must be available at the top most 'window'.
  ```html
  <!doctype html>
- <html ng-app ng-jq="jQueryLib">
+ <html ng-basic-name-app ng-jq="jQueryLib">
  ...
  ...
  </html>
@@ -1469,9 +1469,9 @@ function getNgAttribute(element, ngAttr) {
  *
  * Using `ngStrictDi`, you would see something like this:
  *
- <example ng-app-included="true">
+ <example ng-basic-name-app-included="true">
    <file name="index.html">
-   <div ng-app="ngAppStrictDemo" ng-strict-di>
+   <div ng-basic-name-app="ngAppStrictDemo" ng-strict-di>
        <div ng-controller="GoodController1">
            I can add: {{a}} + {{b}} =  {{ a+b }}
 
@@ -6178,7 +6178,7 @@ function $CacheFactoryProvider() {
  *
  * **Note:** the `script` tag containing the template does not need to be included in the `head` of
  * the document, but it must be a descendent of the {@link ng.$rootElement $rootElement} (IE,
- * element with ng-app attribute), otherwise the template will be ignored.
+ * element with ng-basic-name-app attribute), otherwise the template will be ignored.
  *
  * Adding via the `$templateCache` service:
  *
@@ -6749,7 +6749,7 @@ function $TemplateCacheProvider() {
  * like this:
  *
  * ```html
- * <div ng-app>
+ * <div ng-basic-name-app>
  *   <div isolate>
  *     <div transclusion>
  *     </div>
@@ -10792,7 +10792,7 @@ $interpolateMinErr.interr = function(text, err) {
       this.label = "This binding is brought you by // interpolation symbols.";
   });
 </script>
-<div ng-app="App" ng-controller="DemoController as demo">
+<div ng-basic-name-app="App" ng-controller="DemoController as demo">
     //demo.label//
 </div>
 </file>
@@ -23288,7 +23288,7 @@ var ngControllerDirective = [function() {
  * This example shows how to apply the `ngCsp` directive to the `html` tag.
    ```html
      <!doctype html>
-     <html ng-app ng-csp>
+     <html ng-basic-name-app ng-csp>
      ...
      ...
      </html>
