@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html>
+<html ng-app>
 <head>
-<title>Rock Paper Scissors basic version</title>
+<title>AngularJS Basic Theme Name</title>
 </head>
 
 <body>
