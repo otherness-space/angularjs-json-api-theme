@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html ng-app="app">
 <head>
-    <!-- <base href="/jsonapi/"> -->
+    <base href="/jsonapi/">
     <title>AngularJS Basic Theme Name</title>
     <?php wp_head(); ?>
 </head>
