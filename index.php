@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html  ng-app="app">
+<html ng-app>
 <head>
     <!-- <base href="/jsonapi/"> -->
     <title>AngularJS Basic Theme Name</title>
