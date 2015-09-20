@@ -8,6 +8,8 @@ angular.module('app', ['ngRoute'])
 		controller: 'Main'
 	});
 })
-.controller('Main', function() {
-	console.log('Main file loaded.');
+.controller('Main', function($scope, $http, $routeParams) {
+	$http.get('wp-json/posts/').success(function(res){
+		$scope.posts = res;
+	});
 });
