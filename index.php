@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="app">
 <head>
     <!-- <base href="/jsonapi/"> -->
     <title>AngularJS Basic Theme Name</title>
@@ -14,15 +14,12 @@
 		</h1>
 	</header>
 
-	<div>
-		<input type="text" ng-model="name">
-
-		<p>Hello, {{name}}!</p>
-	</div>
+	<div ng-view></div>
 
 	<footer>
 		&copy; <?php echo date( 'Y' ); ?>
 	</footer>
+
 </body>
 
 </html>
